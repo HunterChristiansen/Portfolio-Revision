@@ -1,0 +1,40 @@
+
+h1, h2, h3, h4, ul, ol, p {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #ffffff;
+  }
+a:hover{
+  color: red;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+div {
+  align-self: start;
+}
+body {background-color:  #737373}
+
+hr {
+  color: #ffffff;
+  }
+
+h1 {
+  padding: 10px;
+  font-size: 50px;
+  height: 30px;
+}
+.column {
+  float: left;
+  width: 30.00%;
+  padding: 15px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
